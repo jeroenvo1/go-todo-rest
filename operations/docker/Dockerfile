@@ -3,7 +3,7 @@
 FROM golang:1.8.0
 
 # Create a directory inside the container to store all our application and then make it the working directory.
-Apt-get install sudo make
+apt-get install sudo make
 RUN mkdir -p /go/src/github.com/badmuts/go-todo-rest
 WORKDIR /go/src/github.com/badmuts/go-todo-rest
 
