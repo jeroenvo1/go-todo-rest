@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.8.x
+  - master
+
+go_import_path: /Users/jeroen_van_ottelen/Documents/School/GoRoot
+
+install: go get
+
