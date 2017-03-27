@@ -19,3 +19,7 @@ func main() {
 	fmt.Println("Starting server on: 127.0.0.1:" + port)
 	graceful.Run(":"+port, 0, s)
 }
+
+func getTwee()(int) {
+	return 2
+}

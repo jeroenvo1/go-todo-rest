@@ -99,3 +99,7 @@ func (tc *TodoControllerImpl) update(res http.ResponseWriter, req *http.Request)
 
 	tc.r.JSON(res, http.StatusOK, tc.todos.Update(oldTodo, todo))
 }
+
+func getEet()(int) {
+	return 1
+}
