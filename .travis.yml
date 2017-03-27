@@ -1,6 +1,8 @@
 language: go
 
-script: go test
+script:
+- go test
+- cd controllers; go test
 
 go:
   - 1.8.x
