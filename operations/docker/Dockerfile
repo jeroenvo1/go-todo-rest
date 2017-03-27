@@ -10,6 +10,7 @@ COPY . /go/src/github.com/badmuts/go-todo-rest
 RUN go get github.com/codegangsta/gin
 RUN go-wrapper download
 RUN go-wrapper install
+RUN install make
 # Set the PORT environment variable inside the container
 ENV PORT 8080
 # Expose port 3000 to the host so we can access the gin proxy
