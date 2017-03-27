@@ -6,6 +6,5 @@ compile:
 build:
 	@docker run --rm -v $$(pwd):/usr/src/api -w /usr/src/api golang:1.8 bash -c make
 
-script:
-- go test
-- cd controllers; go test
+test:
+	go test
