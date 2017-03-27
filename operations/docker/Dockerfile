@@ -3,7 +3,7 @@
 FROM golang:1.8.0
 
 # Create a directory inside the container to store all our application and then make it the working directory.
-apt-get install sudo make
+RUN apt-get install make
 RUN mkdir -p /go/src/github.com/badmuts/go-todo-rest
 WORKDIR /go/src/github.com/badmuts/go-todo-rest
 
@@ -23,5 +23,3 @@ EXPOSE 3000
 
 # Now tell Docker what command to run when the container starts
 CMD gin run
-
-echo HALLO
