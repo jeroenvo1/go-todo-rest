@@ -5,6 +5,6 @@ import (
 )
 
 func TestGetTwee(t *testing.T) {
-	t.Log("Start test: TestgetTwee()!m")
+	t.Log("Start test: TestgetTwee()!")
 	//t.Fail()
 }
