@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jeroenvo1/go-todo-rest.svg?branch=master)](https://travis-ci.org/jeroenvo1/go-todo-rest)
+[![Build Status](https://semaphoreci.com/api/v1/jeroenvo/go-todo-rest-2/branches/master/badge.svg)](https://semaphoreci.com/jeroenvo/go-todo-rest-2)
 
 # Go Todo Rest api
 
